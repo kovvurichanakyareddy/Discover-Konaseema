@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('../Images/Shot_by_Chanakya_at_Anaparthy_and_Arthamuru.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#headerdiv {
+    background-image: linear-gradient(45deg,rgb(7, 22, 19),rgb(0, 94, 6));
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: white;
+    padding: 10px 0;
+}
+#htit {
+    font-size: 37px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    font-style: italic;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+#navi {
+    float: right;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    transition: 1s;
+    top: 30%;
+    left: 60%;
+}
+#nava,#nava:visited {
+    font-size: 18px;
+    color: white;
+    transition: 2s;
+    text-decoration: none;
+}
+#nava:hover {
+    text-decoration: underline;
+}
+#posterdiv {
+    /*background-image: url('../Images/Shot_by_Chanakya_at_Anaparthy_and_Arthamuru.jpg');*/
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+#titlee {
+    height: 50%;
+    width: 80%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    border-top: 15px solid white;
+    border-left: 15px solid white;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.titlep {
+    font-size: 84px;
+    font-weight: bolder;
+    padding-left: 10px;
+    margin-left: 10px;
+    transition: 1s;
+}
+.subtitlep {
+    transition: 1s;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+.posterpiccredits {
+    font-family: 'Nunito Sans', sans-serif;
+    float: right;
+    transition: 1s;
+}
+#aboutpage {
+    height: 400px;
+    background-color: white;
+    /* background: linear-gradient(to right, rgb(75, 156, 0), rgb(194, 238, 144)); */
+    font-family: 'Open Sans', sans-serif;
+    #gap {
+        /* background-color: aqua; */
+        height: 10%;
+    }
+    #abouttitle {
+        /* background-color: bisque; */
+        height: 25%;
+        text-align: center;
+    }
+    #aboutcontent {
+        /* background-color: aquamarine; */
+        height: 65%;
+        text-align: center;
+    }
+    .aboutt {
+        font-size: 42px;
+        font-family: "Rubik", sans-serif;
+        font-weight: bolder;
+        font-style: italic;
+        color: rgb(0, 104, 7);
+        text-decoration: underline;
+    }
+    .aboutp {
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+.famdiv {
+    background-image: linear-gradient(75deg,rgb(147, 255, 147),rgb(243, 255, 244));
+}
+.famtile {
+    height: 350px;
+    width: 400px;
+    margin-left: 35px;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    position: relative;
+}
+.famtile:hover {
+    height: 352px;
+    width: 402px;
+    cursor: pointer;
+}
+#tourgap {
+    height: 30px;
+}
+.tourismtitle {
+    text-align: center;
+    font-size: 42px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(0, 104, 7);
+    text-decoration: underline;
+}
+.tilegap {
+    /* background-color: aqua; */
+    height: 8%;
+}
+.tileimg {
+    /* background-color: bisque; */
+    height: 75%;
+}
+.tileloc {
+    /* background-color: aquamarine; */
+    height: 12%;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    color: green;
+    transition: 0.5s;
+}
+.tileimage {
+    height: 250px;
+    width: 380px;
+    border-radius: 10px;
+}
+.famcontent {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+.famcontent:hover {
+    opacity: 1;
+}
+.famcontent h3 {
+    color: rgb(75, 222, 102);
+    font-family: "Rubik", sans-serif;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.famcontent p,.famcontent li {
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+}
+#footerdiv {
+    height: 100px;
+    padding-top: 20px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+    background-image: linear-gradient(60deg,rgb(8, 24, 20),rgb(0, 94, 6));
+}
+.experiences {
+    background-color: rgb(255, 255, 255);
+}
+.exptitle {
+    text-align: center;
+    font-size: 42px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(0, 104, 7);
+    text-decoration: underline;
+}
+.review {
+    background-color: rgb(225, 232, 213);
+    height: 200px;
+    font-family: "Rubik", sans-serif;
+    transition: 1s;
+    border-radius: 20px;
+}
+.review:hover {
+    background-color: rgb(205, 212, 192);
+    cursor: pointer;
+}
+#revgap {
+    height: 15%;
+}
+#profilepic {
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+#picc {
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+}
+#otherside {
+    float: left;
+    height: 100%;
+    width: 80%;
+}
+.booknow {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+}
+.form {
+    font-family: "Rubik", sans-serif;
+    table{
+        width: 60%;
+        padding: 5px;
+        align-items: center;
+        align-content: center;
+    }
+    input {
+        min-width: 255px;
+        padding: 10px;
+        width: 85%;
+        margin: 10px;
+        opacity: 0.8;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+    }
+}
+#frmslct {
+    min-width: 255px;
+        padding: 10px;
+        width: 85%;
+        margin: 10px;
+        opacity: 0.8;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+}
+.frmbtn {
+    width: 50%;
+    min-height: 30px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    transition: 0.5s;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+.clrbtn {
+    color: forestgreen;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px;
+}
+.clrbtn:hover {
+    background-color: #e2ffeb;
+    box-shadow: 2px 2px 5px;
+}
+.sbtbtn {
+    color: white;
+    background-color: forestgreen;
+    box-shadow: 0.6px 0.6px 5px black;
+}
+.sbtbtn:hover {
+    background-color: rgb(20, 111, 20);
+    box-shadow: 1.5px 1.5px 5px black;
+}
